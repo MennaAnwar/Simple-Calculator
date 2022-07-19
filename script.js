@@ -27,6 +27,30 @@ numbers.forEach(number => {
     });
 });
 
+document.addEventListener('keydown', (event) => {
+    if (event.key >= 0 && event.key <= 9 || event.key == '.') {
+        addDigit(event.key);
+    }
+    else {
+        switch (event.key) {
+            case '+': performOperant('+');
+                break;
+            case '-': performOperant('-');
+                break;
+            case '*': performOperant('×');
+                break;
+            case '/': performOperant('÷');
+                break;
+            case '=':
+            case 'Enter':
+                performOperant('=');
+                break;
+            case "Backspace": performOperant('bsp');
+                break;
+        }
+    }
+});
+
 document.querySelector("#additionButton").addEventListener('click', function () {
     performOperant('+');
 });
