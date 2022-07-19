@@ -282,8 +282,8 @@ function performOpposite(input) {
     }
 
     evaluateExpression();
-    $('#expression').text(expression + tempString1 + tempNumber + tempString2);
-    $('#entry').text(activeNumber.substr(0, 12));
+    document.querySelector('#expression').text(expression + tempString1 + tempNumber + tempString2);
+    document.querySelector('#entry').text(activeNumber.substr(0, 12));
 
 }//end of the performOpposite Function
 
