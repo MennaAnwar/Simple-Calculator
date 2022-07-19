@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif helvetica arial;
+    background: linear-gradient(to right, #38ef7d, #11998e); 
+}
+
+.container {
+    display: block;
+    margin: 2% auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+#calculator {
+    width: 320px;
+    height: 555px;
+    background-color: #1C2833;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#entry-box {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: wheat;
+}
+
+#expression {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: wheat;
+}
+
+#entry {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: wheat;
+    font-family: digital-7;
+}
+
+#buttons {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    width: 317px;
+    margin-top: 72px;
+    margin-left: 8px;
+}
+
+button {
+    border-radius: 26px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    margin: 0 16px 24px 8px;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.button-number {
+    background-color: #212F3D;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+button:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.button-number:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.row {
+    margin-top: 20px
+}
+
+#topAdjust {
+    margin-top: -52px;
+}
+
+#backspaceButton {
+    font-size: 20px;
+    background-color: #E59866
+}
+
+#clearButton {
+    font-size: 20px;
+    background-color: #82E0AA;
+}
+
+#modButton {
+    font-size: 20px;
+    background-color: orange;
+}
+
+#divideButton {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+#multiplyButton {
+    font-size: 20px;
+    background-color: #F1C40F;
+}
+
+#subtractButton {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+#additionButton {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+
+#equalButton {
+    font-size: 20px;
+    background-color: #9477af;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+#clearButton,
+#clearButton:hover,
+#clearButton:active,
+#clearButton:visited {
+    text-decoration: none !important;
+    outline: none !important;
+
+}
+
+#clearButton:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   	 <title>Simple Calculator Javascript</title>
+
+  	 <!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="styles.css">
+
+    <!-- Image Icon -->
+    <link rel="icon" type="image/x-icon" href="img/calculator-image.ico" />
+
+  </head>
+  <body>
+    <div class='container'>
+        <div id='calculator'>
+
+            <!-- Calculator Display -->
+            <div id='entry-box' class='text-right'>
+                <div id='history' class="display-expression">&nbsp;</div>
+                <div id='expression' class="display-expression">&nbsp;</div>
+                <div id='entry'>&nbsp;</div>
+            </div>
+
+            <!-- Calculator Buttons-->
+            <div id='buttons'>
+                <button id="clearButton" value='clr'>C</button>
+                <button id="backspaceButton" value='bsp'>CE</button>
+                <button id="divideButton" value='/'>&divide;</button>
+                <button id="multiplyButton" class="operand" value='*'>x</button>
+
+
+                <button id="7" class="button-number" value='7'>7</button>
+                <button id="8" class="button-number" value='8'>8</button>
+                <button id="9" class="button-number" value='9'>9</button>
+                <button id="subtractButton" class="operand" value='-'>-</button>
+
+                <button id="4" class="button-number" value='4'>4</button>
+                <button id="5" class="button-number" value='5'>5</button>
+                <button id="6" class="button-number" value='6'>6</button>
+                <button id="additionButton" class="operand" value='+'>+</button>
+
+                <button id="1" class="button-number" value='1'>1</button>
+                <button id="2" class="button-number" value='2'>2</button>
+                <button id="3" class="button-number" value='3'>3</button>
+                <button id="equalButton" class="operand" value='='>=</button>
+
+                <button id="oppositeButton" class="button-number" value='opp'>&#xb1;</button>
+                <button id="zeroButton" class="button-number"value='0'>0</button>
+                <button id="." class="button-number" value='.'>.</button>
+            </div>
+            <!-- end of Calculator buttons -->
+        </div>
+        <!-- end calculator -->
+    </div>
+    <!-- end container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<!-- Custom JavaScript -->
+	<script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
