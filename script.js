@@ -318,9 +318,6 @@ function doMath(a, b, operation) {
         case "÷": tempResult = (num_a / num_b);
             break;
 
-        case "%": tempResult = (num_a / num_b);
-            break;
-
         default: return b;
     }
 
