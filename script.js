@@ -254,7 +254,6 @@ function resetCalculator() {
 
 /**
  * performOpposite Function -
- * @param input
  */
 function performOpposite(input) {
 
@@ -293,7 +292,7 @@ function performOpposite(input) {
  * - the first number (prevNumber)
  * - the second number (activeNumber)
  * - the operation
- * @returns String - the results of the first and second number
+ *  returns String - the results of the first and second number
  */
 function doMath(a, b, operation) {
 
